@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npx json-server --watch data/formDB.json --port 8080`
+
+Runs a json server that uses the formDB.json file to mimic a database and RESTful API.
+This will be running at [http://localhost:8080]. 
+The fetch url for the POST requests already fetches this formDB.json from its location, so no changes are required for this.
+
 ### `npm start`
 
 Runs the app in the development mode.\
